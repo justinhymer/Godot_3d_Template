@@ -1,0 +1,12 @@
+# Godot 4 generated editor data and imported resources
+.godot/
+
+# Exported builds
+builds/
+exports/
+
+# Platform/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
