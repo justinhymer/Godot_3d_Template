@@ -1,6 +1,6 @@
-# 3D First Person Template
+# PackRats
 
-A small, asset-free Godot 4 starting point for a first-person game. It includes a complete menu flow, persistent settings, character movement, and physics-object interaction.
+PackRats is a Godot 4 game built from an asset-free first-person template. The starter project includes a complete menu flow, persistent settings, character movement, and physics-object interaction.
 
 ## Included systems
 

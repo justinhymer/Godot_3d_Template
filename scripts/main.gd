@@ -158,7 +158,8 @@ func create_physics_box(label: String, size: Vector3, location: Vector3, mass: f
 	body.position = location
 	body.mass = mass
 	body.collision_layer = 4
-	body.collision_mask = 3
+	# Props collide with the room, player, and one another (layers 1-3).
+	body.collision_mask = 7
 	body.add_to_group("pickup")
 	body.continuous_cd = true
 	add_child(body)
